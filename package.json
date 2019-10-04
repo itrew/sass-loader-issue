@@ -1,0 +1,22 @@
+{
+  "name": "sass-loader-issue",
+  "version": "0.0.0",
+  "description": "Repo for reproducing a sass-loader issue",
+  "scripts": {
+    "build:webpack": "webpack --config webpack.config.js",
+    "build:sass": "node build_with_sass.js"
+  },
+  "author": "Ian Trewella",
+  "private": true,
+  "devDependencies": {
+    "fibers": "^4.0.1",
+    "foundation-sites": "^6.5.3",
+    "mkdirp": "^0.5.1",
+    "motion-ui": "^2.0.3",
+    "node-sass": "^4.12.0",
+    "sass": "^1.23.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}
